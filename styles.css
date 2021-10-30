@@ -1,0 +1,184 @@
+body {
+	background-color: opal;
+}
+
+.site-heading {
+	display: flex;
+	align-items: center;
+	flex-basis:  100%;
+	background: linear-gradient(#9297C4, #3D315B);
+	height: 10%;
+	margin-bottom: 0;
+	justify-content: center;
+	font-size: 1.5em;
+
+}
+
+.page-heading {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background: linear-gradient(#94FBAB, #A9FFF7);
+	height: 3.5em;
+}
+
+.page-heading h2 {
+	position: relative;
+	bottom: .5em;
+	font-size: 2em;
+}
+
+
+.navbar {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(#75DDDD, #2364AA);
+	color: white;
+	height: auto;
+}
+
+.navbar-links {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+
+.navbar-links ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-links li {
+	list-style: none;
+	border: .5px solid black;
+	margin-left: .5em;
+	margin-right: .5em;
+} 
+
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    background-color: ivory;
+}
+
+
+.navbar-links li a:hover {
+	color: blue;
+}
+
+.navbar-links li:hover {
+	background-color: blue;
+}
+
+
+.navbar-links-donate {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+
+.navbar-links-donate ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-links-donate li {
+	list-style: none;
+	border: .5px solid black;
+	margin-left: .5em;
+	margin-right: .5em;
+} 
+
+
+.navbar-links-donate li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    background-color: gold;
+}
+
+
+.navbar-links-donate li a:hover {
+	color: blue;
+}
+
+.navbar-links-donate li:hover {
+	background-color: blue;
+}
+
+.donate-paragraph {
+	color: darkred;
+	font-size: 3em;
+}
+
+
+.content-container {
+	display: flex;
+	border: 2px solid black;
+	display: flex;
+	justify-content: space-around;
+	width: 75%;
+	height: auto;
+	background-color: opal;
+	position: relative;
+	top: 1em;
+	left: 18%;
+}
+
+.content-navigation {
+	border: 2px solid black;
+	background: linear-gradient(#75DDDD, #2364AA);
+	width: 17%;
+	height: 25%;
+	position: fixed;
+	margin-top: 1em;
+}
+
+.content-navigation ul {
+	list-style-type: none;
+	left: -1em;
+}
+
+.content-navigation ul li {
+	margin-bottom: 1em;
+	color: darkred;
+}
+
+.content-heading {
+	background: linear-gradient(#9297C4, #3D315B);
+}
+
+.content-heading h2 {
+	text-align: center;
+}
+
+.output-div {
+	background-color: opal;
+	padding: 1em;
+}
+
+.output-div p {
+	font-family: Merriweather;
+	font-size: 1.1em;
+}
+
+
+#no-term {
+	color: green;
+}
+
+.donkey {
+	color: red;
+}
