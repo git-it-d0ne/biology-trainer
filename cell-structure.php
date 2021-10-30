@@ -16,11 +16,6 @@
 		</ul>
 	</div>
 
-	<div class="flash-card-lock">
-		<p>^</p>
-		<p>|<br></p>
-		<p>Click the "Vocabulary Flashcards" option to lock the page in place for flashcards</p>
-	</div>
 
 	<div class="content-container">
 		<div class="content-heading">
@@ -72,7 +67,7 @@
 
 	<br>
 
-	<div class="content-container">
+	<div class="content-container flashcard-container">
 		<div class="content-heading-flashcard">
 			<h2 id="flashcards">Vocabulary Flashcards</h2>
 			<p>Move mouse over the cards to flip them.</p>
