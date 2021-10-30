@@ -6,6 +6,24 @@ body {
 	background-color: opal;
 }
 
+.toggle-button {
+	position: absolute;
+	top: .75rem;
+	right: 1rem;
+	display: inline-block;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height:  21px;
+}
+
+.toggle-button .bar {
+	height: 3px;
+	width: 100%;
+	background-color: whitesmoke;
+	border-radius: 10px;
+}
+
 
 .logo {
 	width: 10%;
@@ -149,6 +167,14 @@ body {
 	left: 18%;
 }
 
+.flashcard-container {
+	width: 75%;
+	display: flex;
+	justify-content: space-evenly;
+	left: 18%;
+	margin-top: 2em;
+}
+
 .donation-content-container {
 	display: flex;
 	border: 2px solid black;
@@ -169,6 +195,7 @@ body {
 	height: auto;
 	position: fixed;
 	margin-top: 1em;
+	display: flex
 }
 
 .content-navigation ul {
@@ -204,9 +231,16 @@ body {
 }
 
 .content-heading-flashcard {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
 	background: linear-gradient(#9297C4, #3D315B);
 	position: relative;
-	right: .9em;
+	width: 20%;
+	position: relative;
+	right: 2.3em;
+
 
 }
 
@@ -315,16 +349,17 @@ body {
 }
 
 .flash-card-lock {
-	position: fixed;
+	display: flex;
+	position: relative;
 	width: 10%;
 	bottom: 1em;
 	left: 3em;
+	margin-top: 2em;
 }
 
 /*i-Phone X/XS IOS 12 */
 @media only screen
-	and (device-width: 375px)
-	and (device-height: 812px) {
+	and (max-device-width: 375px) {
 
 		.navbar-links li a {
 			font-size: 1.5em;

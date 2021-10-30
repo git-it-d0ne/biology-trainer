@@ -13,6 +13,14 @@
 		<div class="site-heading">
 			<h1 class="brand-title">Biology Trainer</h1>
 		</div>
+
+		<a href="#" class="toggle-button">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</a>
 		
 		<nav class="navbar">
 			<div class="navbar-links">
